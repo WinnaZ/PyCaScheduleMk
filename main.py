@@ -1,16 +1,25 @@
-from talleres import talleres
-
-for taller in talleres:
-    print(taller)
-    print(taller['total_inscriptos'])
-
-
-
-"""
+# -*- coding: utf-8 -*-
+from project import Project
+def menu():
+    print "1) para ingresar "
+    print "2) para salir "
 
 
-mayor_numero_de_inscriptos
 
-superposicion_de_horarios and
-horario_disponible and
-"""
+out = False
+while not out:
+    menu()
+    option = raw_input("")
+    if option == "2":
+        break
+    name = raw_input("Ingrese el nombre del Project: ")
+    team_leader = raw_input("Ingrese el id: ")
+    #Project['team_leader']['leader_name'] = raw_input("Ingrese el nombre del responsable:
+    #Project['team_leader']['leader_name'= raw_input("Ingrese el nombre del responsable: ")
+    category = raw_input("Ingrese la categoría del categoria: ")
+    tags = raw_input("Ingrese el nombre del tag: ")
+    p = Project(name, team_leader, category, tags)
+import pdb; pdb.set_trace()
+
+
+       #
