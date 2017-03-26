@@ -1,0 +1,6 @@
+web hook
+    mandas el mensaje a una url
+    cada vez que hay algo nuevo lo manda
+
+pulling
+    pregunta si hay un nuevo mensaje cada n time

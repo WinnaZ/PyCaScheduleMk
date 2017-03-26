@@ -1,0 +1,35 @@
+
+requerimientos:
+	Votación:
+		1. Nombre proyecto
+		2. Responsable
+			2.1 ID
+			2.2 @user
+		3. Inscriptos
+			3.1 ID
+			3.2 @user
+		4. Categeria
+			4.1 <string>
+		5. Tags
+
+	Cartelera:
+		1. Slots:
+			1.1. Dias
+				1.1.1 Columnas
+			1.2. Horarios
+				1.2.1 Filas
+		2. CantidadxSlot
+
+	Proyectos:
+		1. Nombre
+			1.1 ID
+		2. Responsable
+			2.1 User
+			2.2 ID
+		3. Categoria
+			3.1
+		4. Tags
+			4.1 <string>
+
+
+

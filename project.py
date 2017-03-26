@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 class Project(object):
-    def __init__(self, name, team_leader, category,tags):
+    def __init__(self, name, ide, team_leader, category,tags):
         self.name = name
+        self.ide = ide
         self.team_leader = team_leader
         self.category = category
         self.tags = tags
+
 """
     def set_proyect(self):
         self.name = raw_input("Ingrese el nombre del Project: ")
