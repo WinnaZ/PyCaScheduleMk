@@ -1,0 +1,44 @@
+
+Entrada esperada y Salida devuelta por Módulo de algoritmo de scheduling:
+   https://github.com/arielrossanigo/pycamp_scheduling
+
+*****************************************
+
+Varía la cantidad de días de PyCamp
+Varía la cantidad de proyectos (se sabe al momento previo a votar)
+Slots (rango horario por día para poner exposiciones de proyectos)
+
+
+Entradas:
+
+	slots disponibles (no incluir almuerzo, otras actividades, ) ubicación en matriz, ejemplo A1 es jueves de 10 a 12
+
+
+	Proyecto:
+		-Nombre (del proyecto)
+		-Responsables (Owner y colaboradoes)
+		-Nivel de dificultad (principiante, avanzado, intermedio, por ejemplo)
+		-Temática (web, aplicacion para el sistema, etc.)
+		-lista de slots recomendados (por ejemplo charla de introduccion primer dia)
+		-informar slots no disponibles por responsables
+		-Lista de votantes
+	slots prioritarios para charla inicial por ejemplo
+
+
+Condiciones:
+
+   Determinantes
+
+	x-No puede haber proyectos con el mismo responsables en el mismo slot
+	x-Hay que verificar que el responsable esté el día y horario del slot
+
+   No determinantes
+	x-mas proyectos juntos a principio
+	-En un mismo slot combinar distintos niveles de dificultad
+	-En un mismo slot combinar distintas temáticas
+	-Preferencia de "momento" conveniente (Por ejemplo, charla de introducción al principio)
+	-En lo posible que el Responsable no se colisionen con proyecto que votó 
+	-Prioridad por cantidad de votos
+	-menor cantidad de colisiones posibles de votantes de proyectos en mismo slots
+
+
