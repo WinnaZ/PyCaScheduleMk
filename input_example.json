@@ -1,0 +1,483 @@
+{
+  "responsable_available_slots": {
+    "Facu": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Zoe": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Ariel": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "Matias": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Litox": [
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Mario": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Agustin": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Manuq": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Diego": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Fisa": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Luri": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "Gilgamezh": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "David": [
+      "A3",
+      "A4",
+      "A5",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ]
+  },
+  "available_slots": [
+    "A3",
+    "A4",
+    "A5",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "projects": {
+    "Pilas": {
+      "votes": [
+        "H",
+        "V",
+        "Ariel",
+        "E",
+        "Q",
+        "M",
+        "U",
+        "Mario",
+        "G",
+        "Manuq"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Manuq"
+      ],
+      "theme": ""
+    },
+    "Moravec": {
+      "votes": [
+        "T",
+        "D",
+        "David",
+        "E"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Mario"
+      ],
+      "theme": "mobile"
+    },
+    "Recordium": {
+      "votes": [
+        "Gilgamezh",
+        "Diego",
+        "R",
+        "C",
+        "G",
+        "W"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Facu"
+      ],
+      "theme": ""
+    },
+    "Encajonar apps": {
+      "votes": [
+        "Litox",
+        "J",
+        "Q",
+        "H",
+        "X",
+        "V"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Manuq"
+      ],
+      "theme": "desktop"
+    },
+    "Metaprogramacion": {
+      "votes": [
+        "X",
+        "Gilgamezh",
+        "David",
+        "T"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "David"
+      ],
+      "theme": "mobile"
+    },
+    "PyCamp voting manager": {
+      "votes": [
+        "Fisa",
+        "C",
+        "K",
+        "Agustin",
+        "B",
+        "Luri",
+        "G",
+        "S",
+        "Mario"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Zoe"
+      ],
+      "theme": "hardware"
+    },
+    "Choppycamp": {
+      "votes": [
+        "M",
+        "Y",
+        "G",
+        "A",
+        "Ariel",
+        "K",
+        "U",
+        "Manuq",
+        "Diego",
+        "Litox",
+        "S",
+        "Gilgamezh"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Fisa"
+      ],
+      "theme": "mobile"
+    },
+    "Radio to podcast": {
+      "votes": [
+        "Z",
+        "I",
+        "M"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Diego"
+      ],
+      "theme": "mobile"
+    },
+    "Cuentos a epub": {
+      "votes": [
+        "T",
+        "Y",
+        "X"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Diego"
+      ],
+      "theme": "desktop"
+    },
+    "Fades": {
+      "votes": [
+        "Litox",
+        "Gilgamezh",
+        "Luri",
+        "J",
+        "D"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Facu",
+        "Gilgamezh"
+      ],
+      "theme": "web"
+    },
+    "Programar, que es eso?": {
+      "votes": [
+        "O",
+        "U",
+        "X",
+        "M",
+        "B",
+        "Manuq",
+        "Ariel",
+        "J",
+        "D",
+        "N",
+        "Agustin",
+        "Y",
+        "C",
+        "Q",
+        "Fisa"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [
+        "A3"
+      ],
+      "responsables": [
+        "Matias",
+        "David"
+      ],
+      "theme": ""
+    },
+    "Web PyAr": {
+      "votes": [
+        "B",
+        "Diego",
+        "Fisa",
+        "H",
+        "David",
+        "T",
+        "Y",
+        "Zoe"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Litox"
+      ],
+      "theme": "comunity"
+    },
+    "Vis de redes neuronales": {
+      "votes": [
+        "David",
+        "N",
+        "A"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Ariel"
+      ],
+      "theme": ""
+    },
+    "Mirror Pypi": {
+      "votes": [
+        "Manuq",
+        "A",
+        "Fisa",
+        "T",
+        "Agustin",
+        "Z",
+        "Ariel",
+        "Diego",
+        "G",
+        "H",
+        "David",
+        "Y"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Fisa",
+        "Gilgamezh"
+      ],
+      "theme": "web"
+    },
+    "Linkode": {
+      "votes": [
+        "W",
+        "V",
+        "Diego",
+        "J",
+        "M"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Facu",
+        "Matias"
+      ],
+      "theme": "mobile"
+    },
+    "Raspi": {
+      "votes": [
+        "W",
+        "Luri"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "David"
+      ],
+      "theme": "hardware"
+    },
+    "Easy Camp": {
+      "votes": [
+        "Fisa",
+        "W",
+        "F",
+        "Manuq",
+        "Z",
+        "G",
+        "E"
+      ],
+      "difficult_level": 3,
+      "priority_slots": [],
+      "responsables": [
+        "Matias",
+        "Luri"
+      ],
+      "theme": "web"
+    },
+    "LabJM": {
+      "votes": [
+        "Y",
+        "H"
+      ],
+      "difficult_level": 2,
+      "priority_slots": [],
+      "responsables": [
+        "Agustin"
+      ],
+      "theme": "comunity"
+    }
+  }
+}
