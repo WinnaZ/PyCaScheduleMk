@@ -12,7 +12,7 @@ data['projects'][project_name] = {}
 project_dif = 13
 
 while project_dif not in range(1, 11):
-    project_dif = input("Ingresá el grado de dificultad del proyecto (1-10)   ")
+    project_dif = input("Ingresá el grado de dificultad del proyecto (1-10)  ")
     if project_dif.isnumeric():
         project_dif = int(project_dif)
 
