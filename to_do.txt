@@ -1,0 +1,17 @@
+
+A#/estado:
+    #Subiendo projectos
+    #Votando
+    #Informando
+A#/abrir urnas
+Z#	/votar
+
+S#/estado proyectos
+A#/ayuda
+#
+#notificacion de que un curso esta por empezar 
+#
+problemas para el futuro:
+subir projectos desde pyar directo
+donde hostear el bot/correrlo local
+Que no responda por grupo
