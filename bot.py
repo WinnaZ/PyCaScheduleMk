@@ -7,6 +7,7 @@ This program is dedicated to the public domain under the CC0 license.
 """
 import logging
 import telegram
+from pprint import pprint
 from telegram.error import NetworkError, Unauthorized
 from time import sleep
 
@@ -44,6 +45,7 @@ def echo(bot):
     global update_id
     # Request updates after the last update_id
     for update in bot.get_updates(offset=update_id, timeout=10):
+        pprint (update)
         update_id = update.update_id + 1
 
         if update.message:  # your bot can receive updates without messages
@@ -51,6 +53,8 @@ def echo(bot):
             print (update.message.text)
             if update.message.text.lower() == "hola":
                 update.message.reply_text("holi :)")
+            if update.message.text.lower() == "hello":
+                update.message.reply_text("Hello")
 
 
 if __name__ == '__main__':
