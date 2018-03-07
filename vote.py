@@ -1,20 +1,30 @@
-# -*- coding: utf-8 -*-
-#import pdb; pdb.set_trace()
+import json
 
 
-def voting(list_projects, choice):
-    print ("Reglas de votación: "
-           "l) levanta la mano  "
-           "p) pasa esta votación")
-    print "Estamos votando el projecto: "
-    result = 0
-    for n in range(0, len(list_projects)):
-        if choice == "l":
-            output = True
-            result += 1
-        elif choice == "p":
-            output = False
-    return result
+DATA = json.load(open('data.json'))
+
+user = input('Enter your name: ')
+
+interested_projects = []
 
 
-#import pdb; pdb.set_trace()
+for project_name, project in DATA['projects'].items():
+    vote = input('\nAre you interested in {}? y/n: '.format(project_name)).upper()
+
+    while vote != 'Y' and vote != 'N':
+        print('\nI will ask you again')
+        print('Please insert "Y" if you are interested of "N" if you are not')
+        vote = input('Are you interested in {}? y/n: '.format(project_name)).upper()
+
+    if vote == 'Y':
+        project['votes'].append(user)
+        interested_projects.append(project_name)
+
+
+print('Great! You have finished! These are the projects you are interested in:')
+
+for project in interested_projects:
+    print('-', project)
+
+with open('data.json', 'w') as f:
+    json.dump(DATA, f, indent=2)

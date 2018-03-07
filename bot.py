@@ -59,3 +59,8 @@ def echo(bot):
 
 if __name__ == '__main__':
     main()
+###
+/habitar subida de proyectos (solo lo pueda ejecutar uno de nosotros)
+    /subir_proyecto
+/desabilitar
+/abrir urnas
