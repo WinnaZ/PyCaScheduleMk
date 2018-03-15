@@ -7,6 +7,9 @@ This program is dedicated to the public domain under the CC0 license.
 """
 import logging
 import telegram
+from telegram.ext import CommandHandler
+import json
+import imput_projects
 from pprint import pprint
 from telegram.error import NetworkError, Unauthorized
 from time import sleep
@@ -47,20 +50,19 @@ def echo(bot):
     for update in bot.get_updates(offset=update_id, timeout=10):
         pprint (update)
         update_id = update.update_id + 1
-
+        # start_handler = CommandHandler('start', start)
+        # update.add_handler(start_handler)
         if update.message:  # your bot can receive updates without messages
             # Reply to the message
             print (update.message.text)
-            if update.message.text.lower() == "hola":
+            if update.message.text == "/insert_proyect":
                 update.message.reply_text("holi :)")
-            if update.message.text.lower() == "hello":
-                update.message.reply_text("Hello")
+                imput_projects.insert_proyect(update)
+               
+                            
 
 
 if __name__ == '__main__':
     main()
 ###
-/habitar subida de proyectos (solo lo pueda ejecutar uno de nosotros)
-    /subir_proyecto
-/desabilitar
-/abrir urnas
+
